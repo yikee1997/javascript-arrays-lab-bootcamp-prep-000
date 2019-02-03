@@ -17,3 +17,13 @@ function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 }
+
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
+
+function appendKitten(name) {
+  var name = "Broom";
+  console.log(kittens.concat(name));
+}
